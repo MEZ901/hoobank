@@ -760,6 +760,14 @@ video {
   max-width: 470px;
 }
 
+.max-w-\[\]{
+  max-width: ;
+}
+
+.max-w-\[470\]{
+  max-width: 470;
+}
+
 .flex-1{
   flex: 1 1 0%;
 }
@@ -830,6 +838,14 @@ video {
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded{
+  border-radius: 0.25rem;
+}
+
+.rounded-\[\]{
+  border-radius: ;
 }
 
 .bg-primary{
