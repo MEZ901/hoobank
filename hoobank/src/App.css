@@ -585,6 +585,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -645,6 +650,10 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.ml-4{
+  margin-left: 1rem;
+}
+
 .mr-2{
   margin-right: 0.5rem;
 }
@@ -663,10 +672,6 @@ video {
 
 .mb-4{
   margin-bottom: 1rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
 }
 
 .flex{
@@ -693,6 +698,14 @@ video {
   height: 64px;
 }
 
+.h-\[27px\]{
+  height: 27px;
+}
+
+.h-\[48px\]{
+  height: 48px;
+}
+
 .h-\[140px\]{
   height: 140px;
 }
@@ -717,14 +730,6 @@ video {
   height: 28px;
 }
 
-.h-\[27px\]{
-  height: 27px;
-}
-
-.h-\[48px\]{
-  height: 48px;
-}
-
 .h-\[60\%\]{
   height: 60%;
 }
@@ -747,6 +752,18 @@ video {
 
 .w-\[64px\]{
   width: 64px;
+}
+
+.w-\[100px\]{
+  width: 100px;
+}
+
+.w-\[42px\]{
+  width: 42px;
+}
+
+.w-\[48px\]{
+  width: 48px;
 }
 
 .w-\[140px\]{
@@ -777,20 +794,12 @@ video {
   width: 28px;
 }
 
-.w-\[42px\]{
-  width: 42px;
-}
-
-.w-\[\]{
-  width: ;
-}
-
-.w-\[48px\]{
-  width: 48px;
-}
-
 .w-\[60\%\]{
   width: 60%;
+}
+
+.min-w-\[120px\]{
+  min-width: 120px;
 }
 
 .min-w-\[140px\]{
@@ -885,10 +894,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded{
-  border-radius: 0.25rem;
-}
-
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(0 4 15 / var(--tw-bg-opacity));
@@ -966,6 +971,10 @@ video {
   font-size: 16px;
 }
 
+.text-\[20px\]{
+  font-size: 20px;
+}
+
 .text-\[52px\]{
   font-size: 52px;
 }
@@ -976,10 +985,6 @@ video {
 
 .text-\[15px\]{
   font-size: 15px;
-}
-
-.text-\[20px\]{
-  font-size: 20px;
 }
 
 .font-semibold{
@@ -1014,6 +1019,10 @@ video {
   line-height: 24px;
 }
 
+.leading-\[32px\]{
+  line-height: 32px;
+}
+
 .leading-\[75px\]{
   line-height: 75px;
 }
@@ -1024,10 +1033,6 @@ video {
 
 .leading-\[21px\]{
   line-height: 21px;
-}
-
-.leading-\[32px\]{
-  line-height: 32px;
 }
 
 .text-white{
@@ -1256,6 +1261,14 @@ video {
 
   .sm\:hidden{
     display: none;
+  }
+
+  .sm\:w-\[192px\]{
+    width: 192px;
+  }
+
+  .sm\:min-w-\[192px\]{
+    min-width: 192px;
   }
 
   .sm\:justify-start{
