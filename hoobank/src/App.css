@@ -596,6 +596,18 @@ video {
   margin-left: 0px;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .mr-2{
   margin-right: 0.5rem;
 }
@@ -608,16 +620,8 @@ video {
   margin-left: 0.5rem;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
-}
-
 .mr-10{
   margin-right: 2.5rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
 }
 
 .mb-4{
@@ -628,12 +632,20 @@ video {
   margin-left: 0.75rem;
 }
 
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
 .flex{
   display: flex;
 }
 
 .hidden{
   display: none;
+}
+
+.h-\[50\%\]{
+  height: 50%;
 }
 
 .h-\[140px\]{
@@ -660,16 +672,20 @@ video {
   height: 80%;
 }
 
-.h-\[50\%\]{
-  height: 50%;
-}
-
 .h-\[28px\]{
   height: 28px;
 }
 
+.h-\[64px\]{
+  height: 64px;
+}
+
 .w-full{
   width: 100%;
+}
+
+.w-\[50\%\]{
+  width: 50%;
 }
 
 .w-\[140px\]{
@@ -696,16 +712,20 @@ video {
   width: 80%;
 }
 
-.w-\[50\%\]{
-  width: 50%;
-}
-
 .w-\[124px\]{
   width: 124px;
 }
 
 .w-\[28px\]{
   width: 28px;
+}
+
+.w-\[64\]{
+  width: 64;
+}
+
+.w-\[64px\]{
+  width: 64px;
 }
 
 .min-w-\[140px\]{
@@ -772,6 +792,10 @@ video {
   overflow: hidden;
 }
 
+.rounded-\[20px\]{
+  border-radius: 20px;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -784,9 +808,17 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded{
+  border-radius: 0.25rem;
+}
+
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(0 4 15 / var(--tw-bg-opacity));
+}
+
+.bg-dimBlue{
+  background-color: rgba(9, 151, 124, 0.1);
 }
 
 .object-contain{
@@ -794,12 +826,12 @@ video {
      object-fit: contain;
 }
 
-.p-\[2px\]{
-  padding: 2px;
-}
-
 .p-6{
   padding: 1.5rem;
+}
+
+.p-\[2px\]{
+  padding: 2px;
 }
 
 .px-6{
@@ -895,6 +927,10 @@ video {
   line-height: 21px;
 }
 
+.leading-\[24px\]{
+  line-height: 24px;
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -902,6 +938,16 @@ video {
 
 .text-dimWhite{
   color: rgba(255, 255, 255, 0.7);
+}
+
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(0 4 15 / var(--tw-text-opacity));
+}
+
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 :root {
