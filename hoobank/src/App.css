@@ -942,14 +942,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-t-\[\#3f3r45\]{
-  border-top-color: #3f3r45;
-}
-
-.border-t-\[\#3F3r45\]{
-  border-top-color: #3F3r45;
-}
-
 .border-t-\[\#3F3E45\]{
   --tw-border-opacity: 1;
   border-top-color: rgb(63 62 69 / var(--tw-border-opacity));
@@ -1127,6 +1119,18 @@ video {
   outline-offset: 2px;
 }
 
+.duration-300{
+  transition-duration: 300ms;
+}
+
+.duration-200{
+  transition-duration: 200ms;
+}
+
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -1157,6 +1161,22 @@ video {
   text-fill-color: transparent;
 }
 
+.hover\:text-gradient:hover{
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -1166,6 +1186,18 @@ video {
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+
+.hover\:bg-blue-gradient-low:hover {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #acf4f7 12.19%,
+    #87e4e7 29.82%,
+    #65e8ec 51.94%,
+    #46c6da 90.29%
   );
 }
 
@@ -1247,6 +1279,23 @@ video {
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.hover-brightness-200:hover {
+  filter: brightness(200%);
+}
+
+.hover\:h-\[145px\]:hover{
+  height: 145px;
+}
+
+.hover\:w-\[145px\]:hover{
+  width: 145px;
+}
+
+.hover\:bg-\[\#05102e\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 16 46 / var(--tw-bg-opacity));
 }
 
 .hover\:text-secondary:hover{
